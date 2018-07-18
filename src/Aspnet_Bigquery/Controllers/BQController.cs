@@ -31,8 +31,8 @@ namespace Aspnet_Bigquery.Controllers
 
             var table = dataset.GetOrCreateTable("YOUR TABLE", new TableSchemaBuilder
             {
-                { "arquivoid", BigQueryDbType.String },
-                { "categoria", BigQueryDbType.String },
+                { "fileid", BigQueryDbType.String },
+                { "category", BigQueryDbType.String },
                 { "status", BigQueryDbType.String }
             }.Build());
 
@@ -41,8 +41,8 @@ namespace Aspnet_Bigquery.Controllers
             (
                 new BigQueryInsertRow
                 {
-                    { "arquivoid", Guid.NewGuid().ToString() },
-                    { "categoria", f.Category },
+                    { "fileid", Guid.NewGuid().ToString() },
+                    { "category", f.Category },
                     { "status", f.Status }
                 }));
 
