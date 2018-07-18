@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspnet_Bigquery", "src\Aspnet_Bigquery\Aspnet_Bigquery.csproj", "{9667FC72-8B9A-4026-BDE1-CB95DE60D934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9667FC72-8B9A-4026-BDE1-CB95DE60D934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9667FC72-8B9A-4026-BDE1-CB95DE60D934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9667FC72-8B9A-4026-BDE1-CB95DE60D934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9667FC72-8B9A-4026-BDE1-CB95DE60D934}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDD597C0-8C73-4DA5-A572-5C3ADF333870}
+	EndGlobalSection
+EndGlobal
